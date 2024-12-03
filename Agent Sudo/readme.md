@@ -140,9 +140,9 @@ drwxrwxr-x 4 vfg27 vfg27   4096 Dec  3 11:06 ..
 If I try to extract it, it asks for a password. In order to obtain the password I am going to use `JohnTheRipper`.
 
 ```
-snap/john-the-ripper/current/run/zip2john > hashes_for_john.txt
+/snap/john-the-ripper/current/run/zip2john > hashes_for_john.txt
 
-snap/john-the-ripper/current/run/john hashes_for_john.txt --wordlist=/usr/share/wordlists/rockyou.txt
+/snap/john-the-ripper/current/run/john hashes_for_john.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 ...
 
