@@ -1,0 +1,17 @@
+# Nmap 7.94SVN scan initiated Fri Dec  6 15:23:21 2024 as: nmap -sC -sV -oN initial.log 10.10.93.148
+Nmap scan report for 10.10.93.148
+Host is up (0.046s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 73:b7:c5:4f:73:52:c2:b0:3c:9a:cd:68:c3:c6:e0:9a (RSA)
+|   256 e7:b7:aa:b3:a9:36:92:59:ff:a7:40:4a:24:1f:43:0f (ECDSA)
+|_  256 ba:c5:00:16:2a:1e:8c:cb:cf:93:21:5b:89:b4:c4:d4 (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: WishVille - Home
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Dec  6 15:23:31 2024 -- 1 IP address (1 host up) scanned in 9.81 seconds
