@@ -1,0 +1,5 @@
+network={
+	ssid="MalwareM_AP"
+	#psk="fluffy/champ24"
+	psk=b6539a718cc4745fe326498237746509bec562ce43c468a7b48f8ce698ee1ccb
+}
