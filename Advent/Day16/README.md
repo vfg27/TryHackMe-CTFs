@@ -1,6 +1,6 @@
 # TryHackMe Advent of Cyber - Day 16: The Wareville’s Key Vault grew three sizes that day.
 
-#### Learning Objectives
+### Learning Objectives
 
 1. Learn about Azure, its purpose, and its use cases.  
 2. Understand Azure services such as Azure Key Vault and Microsoft Entra ID.  
@@ -21,15 +21,6 @@ McSkidy’s role as Wareville’s cybersecurity expert led her to Azure’s clou
 ### Assumed Breach Scenario
 
 McSkidy decided to perform an Assumed Breach test to evaluate how far an attacker could go once inside Wareville’s Azure tenant. This approach simulates an initial foothold and explores potential attack paths.
-
----
-
-### Connecting to the Environment
-
-1. Generate credentials through the connection card.
-2. Log in to the Azure Portal using the generated credentials.
-3. Configure language settings if needed (e.g., switch to English).
-4. Launch Azure Cloud Shell (select Bash).
 
 ---
 
